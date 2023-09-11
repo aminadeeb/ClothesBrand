@@ -1,0 +1,219 @@
+
+*/{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+   /* font-family: 'Signika Negative', sans-serif; */
+   /* font-family: 'Oswald', sans-serif;*/
+   /* font-family: 'Josefin Sans', sans-serif; */
+}
+
+   .navbar .container-fluid{
+    padding-left: calc(var(--bs-gutter-x) * .5)!important;
+        --bs-gutter-x: 8.5rem;
+        width: 50% !important;
+    }
+    .bg-body-tertiary {
+        background-color: #b9b8dd75!important;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 1.5rem;
+       --bs-navbar-nav-link-padding-x: 1.5rem;
+    }
+.home{
+    text-decoration: underline;
+    color:teal !important;
+}
+.nav-link:hover{
+      text-decoration: underline;
+      color:teal;
+}
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+.navbar-nav .fa-solid{
+    line-height: 3;
+}
+.div-bag{
+    background-color: teal;
+    height:2em;
+}
+/* start first section */
+.div-cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url("imgs/hero4.png");
+    background-size: 100% 100%;
+    padding: 12rem!important;
+}
+.cover-ho , .cover-ht{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 3rem;
+}
+.cover-ht{
+    color:teal;
+}
+.shop{
+    color:teal;
+}
+/* end first section */
+/* start second section */
+.bd1,.bd2,.bd3,.bd4,.bd5,.bd6{
+    color:teal;
+}
+.bd4{
+    background-color:rgba(161, 124, 196, 0.555)!important;
+}
+.bd5{
+    background-color:rgba(240, 178, 240, 0.849)!important;
+}
+.div-mid-ss h1{
+    font-size: 3.5rem;
+}
+.div-mid-ss p{
+    font-size: 1.2em;
+}
+
+/* end second section */
+
+/* start third section */
+.div-cards .p1{
+   color:teal; 
+}
+
+/* end third section */
+/* star fourth section */
+.div-fourth-sec{
+    background-image: url("imgs/b2.jpg");
+}
+.p1-forth-sec{
+    padding-top: 5em;
+}
+.div-fourth-sec button{
+    margin-bottom: 5em;
+    padding: 0.7em 1.8em;
+}
+.div2-forurth-sec h1{
+    font-size: 3.5rem!important;
+}
+
+
+/* end fourth section */
+
+/* start sixth section */
+/* top */
+.div-right-top{
+    background-image: url("imgs/b17.jpg");
+    background-size: 115% 125%;
+    padding-bottom: 6rem!important;
+    padding-top: 7rem!important;
+}
+
+.div1-sixth-sec .div-top {
+    --bs-gutter-x: 4.5rem;
+}
+.div-left-top{
+    background-image: url("imgs/b10.jpg");
+    background-size: 115% 125%;
+    padding-bottom: 6rem!important;
+    padding-top: 7rem!important;
+
+}
+
+ /* bottom */
+ .div-right-bottom{
+    background-image: url("imgs/b7.jpg");
+    background-size: 115% 100%;
+    padding-bottom: 5rem!important;
+    padding-top: 6rem!important;
+ }
+ .div-mid-bottom{
+    background-image: url("imgs/b4.jpg");
+    background-size: 115% 100%;
+    padding-bottom: 5rem!important;
+    padding-top: 6rem!important;
+ }
+ .div-left-bottom{
+    background-image: url("imgs/b18.jpg");
+    background-size: 115% 100%;
+    padding-bottom: 5rem!important;
+    padding-top: 6rem!important;
+ }
+ .div1-sixth-sec .div-bottom {
+    gap: 2.5rem!important;
+ }
+/* last section */
+
+.top-last-div{
+    background-color: rgb(17, 17, 92);
+    gap: 10.5rem!important;
+}
+ .input-button button{
+    background-color: teal;
+ }
+
+@media screen and (max-width: 676px) {
+    .navbar-toggler{
+        margin-left: 4em;
+    }
+    .navbar{
+        width: 110%;}
+   .navbar .container-fluid{
+        --bs-gutter-x: 3.5rem;
+    }
+
+    .div-img {
+        width: 35% !important;
+    }
+    /* first section */
+    .div-cover{
+        width:110%;
+        padding:1em !important;
+    }
+    .img-1{
+        text-align: none;
+    }
+    /* second section */
+    .div-imgs {
+        --bs-gutter-x: -4.5rem;}
+        /* third-section */
+        .third-section{
+            --bs-gutter-x: 8.5rem;
+        }
+        .top-last-div{
+            padding: 6em;
+            gap: 4.5rem!important;
+            --bs-gutter-x: 5.5rem;
+        }
+}
+
+
+@media screen and ( min-width: 677px) and (max-width: 992px){
+    .navbar-toggler{
+        margin-left: 9em;
+    }
+.third-section{
+--bs-gutter-x: 15.5rem;
+}
+.top-last-div{
+    gap: 3.5rem!important;
+}
+
+}
+
+
+@media screen and (min-width : 992px) and ( max-width: 1200px) {
+   .navbar .container-fluid{
+        --bs-gutter-x: 0.5rem;
+    }
+    .top-last-div{
+        gap: 3.5rem!important;
+    }
+}
+@media screen and ( min-width: 1200px){
+   .navbar .container-fluid {
+        width: 30%
+    }
+}
+    
